@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Poppins:wght@300&family=Press+Start+2P&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+    transition: all 0.5s ease;
+    background:url(img/starback1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid aliceblue;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px black;
+    
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 2px solid aliceblue;
+    background: transparent;
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 20px 70px 20px 20px;
+    font-size: 15px;
+}
+
+.input-box input::placeholder{
+    color: aliceblue;
+}
+
+.input-box i{
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: aliceblue;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow:0 0 7px ;
+    
+
+}
+
+.wrapper .btn p{
+    padding: 0 70px;
+    transition: all 0.5s ease;
+}
+
+.wrapper .register-link{
+    font-size: 15px;
+    text-align: center;
+    margin:20px 0 10px;
+}
+
+.wrapper .register-link a{
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;    
+}
+
+.wrapper .register-link a:hover{
+    text-decoration: underline;
+}
+
